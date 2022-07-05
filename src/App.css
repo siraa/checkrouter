@@ -1,0 +1,58 @@
+.MovieSearch {
+  /* background-color: #789ce2;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+   margin-top: -300px; */
+  /* color: white;
+  /* margin-left: 600px;
+margin-top: 40px;
+margin-right: 0%; */
+
+
+/* display:flex; */
+/* align-items: center; */
+/* flex-direction: column-reverse;
+justify-content: right;
+width:70%;
+margin: auto;
+padding-top: 20px; */
+
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px 2em;
+ 
+}
+body{
+
+  /* background-color: aquamarine; */
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+}
+.add-btn {
+
+   border:1px solid rgb(226, 20, 20);
+   background-color: rgb(241, 16, 16);
+   margin-left: 200px;
+   border-radius: 8px;
+   box-shadow: 15px -19px 47px -9px rgba(181,172,181,0.72);
+ outline: none;
+ font-size: 15px;
+ 
+}
+.navbar
+{
+background-color: blanchedalmond;
+display: flex;
+margin: 30px;
+
+}
+.img{
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}

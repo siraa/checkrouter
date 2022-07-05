@@ -1,0 +1,49 @@
+.MovieCard{
+    border-radius:0.5rem;
+    overflow:hidden;
+ /* max-width: 35ch;  */
+    margin-bottom: 30px;
+    transition: transform 500ms ease;
+
+     width: 200px;
+    height: 550px; 
+     
+    /* width: 200px;
+    height: 450px; */ 
+    /* width: 200px;
+    height: 450px; */ 
+    /* position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem; */
+    /* width: 390px;
+  height: 870px;
+  padding: 10px;
+  margin-right: -40px;
+  margin-top: 30px;
+  background-color: blue; */
+}
+.img{
+
+  width: 300px ;
+  height:200px ;
+}
+/* .Card.Img{
+    width: 200px;
+    height: 450px;
+
+} */
+.Card.Text{
+    font-size:8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+
